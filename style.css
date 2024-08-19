@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-     background-image: url('./images/bg\ image5');
+     background-image: url('./images/bg\ image2');
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
@@ -12,12 +12,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aliceblue;
+    
 }
 #logo img{
-    width: 80px;
-    height: 80px;
-    padding-left: 40px;
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
 }
 .anchor-tags {
     margin-top: 20px;
