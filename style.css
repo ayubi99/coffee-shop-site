@@ -3,7 +3,8 @@
     margin: 0;
 }
 body {
-     background-image: url('./images/bg\ image7.png');
+     /* background-image: url('./images/bg\ image7.png'); */
+     background-color: rgb(145, 99, 99);
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
@@ -12,7 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(233, 217, 217);
+    background-color: rgb(209, 195, 195);
     width: 100%;
     height: 70px;
     
@@ -51,20 +52,20 @@ nav {
 }
 .home-heading p {
     padding: 5px 0px;
-    color: aqua;
+    color: rgb(224, 238, 238);
 }
 .home-heading button{
-    color: aqua;
-    border: 2px solid red;
-    background-color: rgb(175, 153, 153);
+    color: rgb(15, 15, 15);
+    border: 2px solid rgb(73, 63, 63);
+    background-color: rgb(241, 234, 234);
     padding: 10px;
     margin-left: 20%;
     margin-top: 15px;
     border-radius: 5px;
 }
 .offer {
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 250px;
+    margin-right:150px;
 }
 .offer img{
     width: 400px;
@@ -73,4 +74,41 @@ nav {
 }
 .home-image {
     width: 400px;
+    height: 100px;
+    float: right;
+
+   
+    
+
+}
+/* style coffee section */
+.coffee-container {
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-top: 40px;
+    color: aliceblue;
+}
+.coffee-container .coffee-cup{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image:url('./images/MuchaTseBle.jpeg') ;
+    background-size: cover;
+}
+.coffee-cup img{
+    width: 150px;
+    height: 130px;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+}
+.coffee-cup h2{
+    margin-top: -15px;
+}
+.coffee-cup p{
+    font-size: 13px;
+    padding: 5px;
 }
